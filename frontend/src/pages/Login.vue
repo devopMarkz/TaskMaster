@@ -20,9 +20,9 @@
 
         if (request.ok) {
             console.log('Login realizado com sucesso');
-        } else {
-            console.error('Falha no login');
             window.location.href="http://localhost:3000/home";
+        } else {
+            alert('Falha no login');
         }
     }
 </script>
